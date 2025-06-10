@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #a6ff00;
+  font-size: 2.5em;
+}
+
+header p {
+  color: #ccc;
+  font-size: 1.1em;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px #0f0f0f;
+}
+
+section h2 {
+  color: #a6ff00;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #2b2b2b;
+  color: #a6ff00;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.ilustracao {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 64, 0, 0.3);
+}
+.mensagem {
+  background-color: #a8ff9e;
+  color: #014421;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 64, 0, 0.3);
+}
